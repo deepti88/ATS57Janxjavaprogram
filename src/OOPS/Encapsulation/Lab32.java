@@ -6,8 +6,8 @@ public class Lab32 {
      //admin and admin username and password
         boolean check = VM.isLoggedIn("Usernm","admin11");
         //VM.Password="admin11";
-        VM.setUsername("Usernm");
-        System.out.println(VM.getPassword());
+       //// VM.setUsername("Usernm");
+       // System.out.println(VM.getPassword());
 
 
       //  boolean check2= VM.isLoggedIn("Usernm","admin11");
