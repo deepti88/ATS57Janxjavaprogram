@@ -14,4 +14,4 @@ public class Lab38 {
 }
 //Exception--That occur disturbance while executing the program
 //Error cannot handle--memory is full
-//
+//Error will be always on top line in exception--latest one we have to look during debug
