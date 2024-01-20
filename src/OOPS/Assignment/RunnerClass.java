@@ -18,6 +18,13 @@ public class RunnerClass {
             System.out.println(student.toString());
         }
 
+        ATBChild[] childList = new ATBChild[1];
+        childList[0] = new ATBChild("John Doe", 23, 77, 123-456-7890);
+
+        for (ATB student : childList) {
+            System.out.println(student.toString());
+        }
+
 
     }
 }

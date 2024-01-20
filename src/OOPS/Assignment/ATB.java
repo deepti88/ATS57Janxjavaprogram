@@ -31,6 +31,10 @@ public class ATB {
         return phone;
     }
 
+    public String getPhone(String countryCode) {
+        return countryCode +" "+ phone;
+    }
+
     public String toString() {
         return "ATB{" +
                 "name='" + name + '\'' +
@@ -40,9 +44,6 @@ public class ATB {
                 '}';
 
     }
-
-
-
     }
 
 
