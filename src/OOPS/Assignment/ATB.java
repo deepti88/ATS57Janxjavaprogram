@@ -32,7 +32,7 @@ public class ATB {
     }
 
     public String getPhone(String countryCode) {
-        return countryCode +" "+ phone;
+        return countryCode +""+ phone;
     }
 
     public String toString() {
