@@ -10,17 +10,22 @@ class SortbynameAsc implements Comparator<Student>{
 }
 
 class SortbynameDsc implements Comparator<Student>{
+
+
     @Override
     public int compare(Student o1, Student o2) {
         return o2.getName().compareTo(o1.getName());
+
     }
 }
 class sortbyidDsc implements Comparator<Student>{
 
     @Override
     public int compare(Student o1, Student o2) {
-        return Integer.compare(o2.getId(),o1.getId());
+        return o1.getName().compareTo(o2.getName());
     }
+
+
 }
 
 public class Student implements Comparable<Student> {
@@ -55,6 +60,7 @@ public class Student implements Comparable<Student> {
 
     String name;
     Integer id;
+
 
     @Override
     public int compareTo(Student o) {
